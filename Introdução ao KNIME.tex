@@ -52,27 +52,85 @@
 \subsection{Apresentação do KNIME}
 \begin{frame}{Apresentação do KNIME}
 \begin{outline}
-    \1 Ferramenta de criação de workflows de análise de dados
-    \1 Baseada no Eclipse
-    \1 Implementa vários algoritmos
-    \1 Programável e extensível
-    \2 Java, Python, R
-    \1 Gera relatórios
-    \1 Gera gráficos
     \1 Pronúncia ``NAIME''
+    \1 2 Ferramentas de \textit{Data Science}
+    \2 KNIME Analytics Platform 
+    \3 Open Source
+    \3 Desenvolvimentos de sistemas de \textit{Data Science}
+    \2 KNIME Server
+    \3 Comercial
+    \3 Colaboração, gerência, automação e \textit{deployment} de \textit{workflows} de \textit{Data Science} como aplicações e serviços
 \end{outline}    
 \end{frame}
- 
+
+\subsection{KNIME Analytics Platform}
+\begin{frame}{KNIME Analytics Platform}
+    \begin{outline}
+        \1 Baseada no Eclipse
+        \1 Implementa vários algoritmos
+        \1 Programável e extensível
+        \2 Java, Python, R
+        \1 Gera relatórios e gráficos
+        \1 Possui plug-ins de terceiros
+    \end{outline}
+\end{frame}
+
+\subsection{{A interface do KNIME}}
+\begin{frame}{A interface do KNIME}
+\TPGrid[40mm,20mm]{10}{5}
+   \only<1->{
+   \centering
+   \includegraphics[width=\linewidth]{Images/Interface1}
+    }
+
+   \setlength{\TPHorizModule}{\textwidth}
+   \setlength{\TPVertModule}{\textheight}
+
+  \only<2>{
+   \begin{textblock*}{30mm}(20mm,20mm)\color{white}
+            Área do Workflow            
+   \end{textblock*}}
+
+  \only<3>{
+    \begin{textblock*}{30mm}(-20mm,20mm)
+       \color{white} Explorador            
+\end{textblock*}}
+
+  \only<4>{
+    \begin{textblock*}{30mm}(-20mm,50mm)
+        \color{white}Nós disponíveis            
+\end{textblock*}}
+
+  \only<5>{
+    \begin{textblock*}{30mm}(60mm,20mm)
+        \color{white}Descrição            
+\end{textblock*}}
+
+  \only<6>{
+    \begin{textblock*}{30mm}(0mm,55mm)
+       \color{white} Outline            
+\end{textblock*}}
+
+  \only<7>{
+    \begin{textblock*}{30mm}(40mm,55mm)
+       \color{white} Console            
+    \end{textblock*}}
+\end{frame}
+
+\subsection{O que é um workflow}
 \begin{frame}{O que é um workflow}
 \begin{outline}
 Um workflow, ou fluxo de trabalho, é uma forma de descrever uma cadeia de processamento por meio de um grafo onde nós representam processos e arestas representam o fluxo de dados entre esses processos.
-\vspace{.5cm}
+\vfill
 \includesvg{Images/desenho-workflow-basico-1.svg}
 \end{outline}
 \end{frame}
 
 
-\begin{frame}
+\section{Entendendo um Workflow}
+
+
+\begin{frame}{Entendendo um Workflow}
 \includesvg{Images/desenho-workflow-basico-1.svg}
 \end{frame} 
 
