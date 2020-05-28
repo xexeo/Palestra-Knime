@@ -1,0 +1,91 @@
+%!BIB TS-program = 
+\documentclass{beamer}
+% Introdução ao LaTeX
+% Seminário LaTeX -- o Livro
+% Geraldo Xexéo
+% Este arquivo tem a licença Creative Commons
+% BY-NC-SA 2020
+
+%\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\input{comandos-geral}
+\input{comandos-beamer}
+
+
+
+\title{Introdução ao KNIME}
+\subtitle{Palestras do DCC}
+
+
+\author{Geraldo Xexéo\inst{1,2}}
+
+\institute[DCC/PESC]{\inst{1}Departamento de Ciências da Computação 
+\and
+\inst{2}Programa de Engenharia de Sistemas e Computação}
+
+\date[DCC]{Palestra Remota para o DCC, Junho 2020}
+
+
+
+\begin{document}
+
+
+\begin{frame}
+  
+\titlepage
+%\centering
+%\includegraphics[width=.6\linewidth]{Images/Logomarcas.png}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Agenda}
+\tableofcontents[hideallsubsections]
+\end{frame}
+
+
+\section{O que é o KNIME}
+
+
+
+\subsection{Apresentação do KNIME}
+\begin{frame}{Apresentação do KNIME}
+\begin{outline}
+    \1 Ferramenta de criação de workflows de análise de dados
+    \1 Baseada no Eclipse
+    \1 Implementa vários algoritmos
+    \1 Programável e extensível
+    \2 Java, Python, R
+    \1 Gera relatórios
+    \1 Gera gráficos
+    \1 Pronúncia ``NAIME''
+\end{outline}    
+\end{frame}
+ 
+\begin{frame}{O que é um workflow}
+\begin{outline}
+Um workflow, ou fluxo de trabalho, é uma forma de descrever uma cadeia de processamento por meio de um grafo onde nós representam processos e arestas representam o fluxo de dados entre esses processos.
+\vspace{.5cm}
+\includesvg{Images/desenho-workflow-basico-1.svg}
+\end{outline}
+\end{frame}
+
+
+\begin{frame}
+\includesvg{Images/desenho-workflow-basico-1.svg}
+\end{frame} 
+
+
+\begin{frame}
+\Huge \center
+Obrigado!
+\end{frame} 
+
+\begin{frame}{Contato}
+\begin{center}
+    \includegraphics[width=\linewidth]{Images/Picture5.png}
+\end{center}   
+\end{frame}
+
+\end{document}
