@@ -127,23 +127,156 @@ Um workflow, ou fluxo de trabalho, é uma forma de descrever uma cadeia de proce
 \end{frame}
 
 
-\section{Entendendo um Workflow}
+\section{Workflows}
 
-
+\subsection{Entendendo um Workflow}
 \begin{frame}{Entendendo um Workflow}
+\begin{itemize}
+    \item Um workflow é composto de nós
+    \item Cada nó faz uma atividade
+    \item Nós são divididos em tipos
+    \item Nós tem portões de entrada e saída, de tipos diferentes
+    \item Portões são conectados por fluxos, passando os dados e informações sobre eles
+\end{itemize}
+\vfill
 \includesvg{Images/desenho-workflow-basico-1.svg}
 \end{frame} 
 
-
-\begin{frame}
-\Huge \center
-Obrigado!
+\subsection{Entendendo um Nó}
+\begin{frame}{Um nó básico}
+    \begin{columns}
+        \begin{column}{0.5\linewidth}
+        \begin{outline}
+            \1 Tipo do nó
+            \1 Desenho indicativo do nó
+            \1 Porta de entrada
+            \1 Porta de saída
+            \1 Status do nó
+            \1 Nome do nó
+        \end{outline}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+        \includegraphics[width=0.8\linewidth]{Images/UmNo.png}
+        \end{column}
+    \end{columns}
 \end{frame} 
 
+\begin{frame}{Status do Nó}
+    \begin{columns}
+        \begin{column}{0.5\linewidth}
+            \begin{outline}
+                \1 Não configurado
+                \1 Pronto para executar
+                \1 Executado
+            \end{outline}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \includegraphics[height=0.8\textheight]{Images/statusdono.png}
+        \end{column}
+    \end{columns}
+\end{frame} 
+
+
+\begin{frame}{Configuração de um Nó}
+    \centering
+   \includegraphics[width=0.8\linewidth]{Images/configuracaofiltro.png}
+\end{frame} 
+
+
+\subsection{Tipos de Nós}
+\begin{frame}{Tipos de Nós}
+    \begin{itemize}
+        \item Leitura
+        \item Escrita / \textit{Deploy}
+        \item Transformação
+        \item Análise, Aprendizado
+        \item Exploração
+        \item Predição
+        \item Controle
+    \end{itemize}
+\end{frame} 
+
+\begin{frame}{Tipos de Porta (mais comuns)}
+    \centering
+\includegraphics[width=0.8\textheight]{Images/tiposdeportas.png}    
+\end{frame} 
+
+\subsection{Construindo um Workflow}
+
+\begin{frame}{Construindo um Workflow}
+    \begin{itemize}
+        \item Coloque nós no mapa
+        \item Configure os nós 
+        \item Execute
+        \item Repita até alcançar o desejado
+    \end{itemize}
+\end{frame}
+
+
+\section{Exemplos}
+
+\subsection{Visualização de Curvas}
+\begin{frame}{Visualização de Curvas}
+    \centering
+    \includesvg[width=.8\linewidth]{Images/desenha-covid-ob-ac}
+\end{frame}
+
+
+\subsection{Metanodes}
+\begin{frame}{Metanodes}
+    \centering
+    \includesvg[width=.8\linewidth]{Images/metanodo}
+\end{frame}
+
+\subsection{Estudando o Covid}
+\begin{frame}{Estudando o Covid-19}
+    \centering
+    \includesvg[width=.8\linewidth]{Images/estudaCovid.svg}
+\end{frame}
+
+\begin{frame}{Simplificando o Modelo}
+    \centering
+    \includesvg[width=.8\linewidth]{Images/resumido.svg}
+\end{frame}
+
+
+\section{BIRT -- Basic Intelligence Report Tool}
+
+\subsection{O que é BIRT}
+\begin{frame}{O que é BIRT}
+Software open source usado para criar relatórios, baseado no resultado dos workflows.
+Podem ser gerados em PDF, HTML e outros formatos.
+\vfill
+\centering
+\includegraphics[height=0.4\textheight]{Images/birtscreen.png}
+\end{frame} 
+
+\subsection{Como usar BIRT}
+\begin{frame}{Como usar BIRT}
+    \begin{itemize}
+        \item instalar (instalar plug-in no )
+        \item dentro de um workflow, clicar \includegraphics{Images/birticon.png}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Como usar BIRT II}
+    \begin{itemize}
+        \item defina o layout da págica
+        \item defina a master page
+        \item usos mais avançados com scripts...
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \Huge \center
+    Obrigado!
+\end{frame} 
+
+
 \begin{frame}{Contato}
-\begin{center}
-    \includegraphics[width=\linewidth]{Images/Picture5.png}
-\end{center}   
+    \begin{center}
+        \includegraphics[width=\linewidth]{Images/Picture5.png}
+    \end{center}   
 \end{frame}
 
 \end{document}

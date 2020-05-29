@@ -1,0 +1,105 @@
+%% Creator: Inkscape 1.0 (4035a4fb49, 2020-05-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'desenha-covid-ob-ac_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{400.29199219bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.29392972)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.05082594,0.05647245){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ler arquivo\end{tabular}}}}%
+    \put(0.05644683,0.02836796){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} MS-Covid\end{tabular}}}}%
+    \put(0.18572746,0.13141774){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Pega apenas \end{tabular}}}}%
+    \put(0.1763593,0.10331326){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dados do Brasil\end{tabular}}}}%
+    \put(0.32437625,0.05647245){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Converte strings\end{tabular}}}}%
+    \put(0.33187078,0.02836796){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} para números\end{tabular}}}}%
+    \put(0.50237132,0.13141774){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Converte de string\end{tabular}}}}%
+    \put(0.54733849,0.10331326){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}para data\end{tabular}}}}%
+    \put(0.86585598,0.13141774){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Faz o Gráfico\end{tabular}}}}%
+    \put(0.68786091,0.05647245){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Seleciona colunas\end{tabular}}}}%
+    \put(0.74781715,0.02836796){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} data e\end{tabular}}}}%
+    \put(0.68036638,0.00026348){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} óbitos acumulados\end{tabular}}}}%
+    \put(-0.00163577,0.20261577){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Excel Reader (XLS)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{desenha-covid-ob-ac_svg-tex.pdf}}%
+    \put(0.20259015,0.27756106){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Row Filter}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{desenha-covid-ob-ac_svg-tex.pdf}}%
+    \put(0.30938719,0.20261577){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{String To Number}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{desenha-covid-ob-ac_svg-tex.pdf}}%
+    \put(0.47988773,0.27756106){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{String to Date\&Time}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{desenha-covid-ob-ac_svg-tex.pdf}}%
+    \put(0.86585598,0.27756106){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Scatter Plot}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{desenha-covid-ob-ac_svg-tex.pdf}}%
+    \put(0.70847087,0.20261577){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Column Filter}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{desenha-covid-ob-ac_svg-tex.pdf}}%
+    \put(0.05082594,0.05647245){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ler arquivo\end{tabular}}}}%
+    \put(0.05644683,0.02836796){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} MS-Covid\end{tabular}}}}%
+    \put(0.18572746,0.13141774){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Pega apenas \end{tabular}}}}%
+    \put(0.1763593,0.10331326){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dados do Brasil\end{tabular}}}}%
+    \put(0.32437625,0.05647245){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Converte strings\end{tabular}}}}%
+    \put(0.33187078,0.02836796){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} para números\end{tabular}}}}%
+    \put(0.50237132,0.13141774){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Converte de string\end{tabular}}}}%
+    \put(0.54733849,0.10331326){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}para data\end{tabular}}}}%
+    \put(0.86585598,0.13141774){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Faz o Gráfico\end{tabular}}}}%
+    \put(0.68786091,0.05647245){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Seleciona colunas\end{tabular}}}}%
+    \put(0.74781715,0.02836796){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} data e\end{tabular}}}}%
+    \put(0.68036638,0.00026348){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} óbitos acumulados\end{tabular}}}}%
+    \put(-0.00163577,0.20261577){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Excel Reader (XLS)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{desenha-covid-ob-ac_svg-tex.pdf}}%
+    \put(0.20259015,0.27756106){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Row Filter}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{desenha-covid-ob-ac_svg-tex.pdf}}%
+    \put(0.30938719,0.20261577){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{String To Number}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{desenha-covid-ob-ac_svg-tex.pdf}}%
+    \put(0.47988773,0.27756106){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{String to Date\&Time}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{desenha-covid-ob-ac_svg-tex.pdf}}%
+    \put(0.86585598,0.27756106){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Scatter Plot}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{desenha-covid-ob-ac_svg-tex.pdf}}%
+    \put(0.70847087,0.20261577){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Column Filter}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{desenha-covid-ob-ac_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%
