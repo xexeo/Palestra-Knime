@@ -1,0 +1,553 @@
+/*
+ Theme Name:   Twenty Fourteen Child
+ Theme URI:    http://oracleselixir.com/twenty-fourteen-child/
+ Description:  Twenty Fourteen Child Theme
+ Author:       Tim Sevenhuysen
+ Author URI:   http://timsevenhuysen.com
+ Template:     twentyfourteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, three-columns, left-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+/* CUSTOMIZATIONS */
+
+.grid .featured-content .entry-header {
+	max-height: 95px;
+}
+#featured-content {
+	display: none;
+}
+.content-area, .content-sidebar {
+	padding-top: 36px;
+}
+
+.nav-links { display: none; } /* Hides next/previous post links beneath posts. */
+
+/* Cooltips */
+
+.cooltip {
+	position: absolute;
+	top:-9999px;
+	left: -9999px;
+	background: #049cdb;
+	padding: 8px;
+	z-index: 1;
+	font-size: 85%;
+	font-style: italic;
+}
+
+.cooltip .abv {
+	display: none;
+}
+
+/* Coolfilters */
+
+.coolfilter {
+	margin: 0 0 0 8px;
+	padding: 2px;
+	min-width: 50px;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: middle;
+	border-color: #aaa;
+	border-radius: 0;
+}
+
+input.coolfilter {
+	padding: 4px;
+}
+
+.chosen-container {
+	margin-right: 8px;
+}
+
+.coolfilters .chosen-container:last-of-type {
+	margin: 0;
+}
+
+/* TablePress Customization */
+.dataTables_length, .dataTables_filter, .paginate_button {
+	font-size: 85%;
+}
+
+.tablepress th, .tablepress td {
+	font-size: 85%;
+	text-align: center;
+}
+.tablepress thead th {
+	text-align: center;
+}
+
+.tablepress tbody td {
+	vertical-align: middle !important;
+	text-align: center;
+}
+
+.tablepress .column-1 {
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+	min-width: 90px !important;
+}
+
+/* TABLE CUSTOMIZATIONS */
+.tablepress-id-15 .column-2, .tablepress-id-17 .column-2, .tablepress-id-24 .column-2, .tablepress-id-26 .column-2, .tablepress-id-28 .column-2, .tablepress-id-30 .column-2, .tablepress-id-34 .column-2, .tablepress-id-35 .column-2, .tablepress-id-39 .column-2, .tablepress-id-40 .column-2, .tablepress-id-42 .column-2, .tablepress-id-45 .column-2, .tablepress-id-46 .column-2, .tablepress-id-62 .column-2, .tablepress-id-64 .column-2, .tablepress-id-65 .column-2, .tablepress-id-67 .column-2, .tablepress-id-70 .column-2, .tablepress-id-72 .column-2, .tablepress-id-78 .column-2, .tablepress-id-80 .column-2, .tablepress-id-81 .column-2, .tablepress-id-86 .column-2, .tablepress-id-87 .column-2, .tablepress-id-88 .column-2, .tablepress-id-90 .column-2, .tablepress-id-91 .column-2, .tablepress-id-93 .column-2, .tablepress-id-97 .column-2, .tablepress-id-99 .column-2, .tablepress-id-101 .column-2, .tablepress-id-105 .column-2, .tablepress-id-108 .column-2, .tablepress-id-107 .column-2, .tablepress-id-104 .column-2, .tablepress-id-110 .column-2, .tablepress-id-111 .column-2, .tablepress-id-114 .column-2, .tablepress-id-119 .column-2, .tablepress-id-120 .column-2, .tablepress-id-123 .column-2, .tablepress-id-127 .column-2, .tablepress-id-129 .column-2, .tablepress-id-131 .column-2, .tablepress-id-133 .column-2, .tablepress-id-135 .column-2, .tablepress-id-137 .column-2, .tablepress-id-139 .column-2, .tablepress-id-143 .column-2, .tablepress-id-146 .column-2, .tablepress-id-148 .column-2, .tablepress-id-155 .column-2, .tablepress-id-157 .column-2, .tablepress-id-159 .column-2, .tablepress-id-161 .column-2, .tablepress-id-163 .column-2, .tablepress-id-165 .column-2, .tablepress-id-168 .column-2, .tablepress-id-170 .column-2, .tablepress-id-172 .column-2, .tablepress-id-174 .column-2, .tablepress-id-176 .column-2, .tablepress-id-178 .column-2, .tablepress-id-180 .column-2, .tablepress-id-182 .column-2, .tablepress-id-184 .column-2, .tablepress-id-186 .column-2, .tablepress-id-188 .column-2, .tablepress-id-190 .column-2, .tablepress-id-192 .column-2, .tablepress-id-194 .column-2, .tablepress-id-196 .column-2, .tablepress-id-198 .column-2, .tablepress-id-208 .column-2, .tablepress-id-210 .column-2, .tablepress-id-212 .column-2, .tablepress-id-214 .column-2, .tablepress-id-216 .column-2, .tablepress-id-218 .column-2, .tablepress-id-220 .column-2, .tablepress-id-222 .column-2, .tablepress-id-224 .column-2, .tablepress-id-226 .column-2, .tablepress-id-228 .column-2, .tablepress-id-230 .column-2, .tablepress-id-232.column-2, .tablepress-id-234 .column-2, .tablepress-id-236 .column-2, .tablepress-id-238 .column-2, .tablepress-id-240 .column-2, .tablepress-id-242 .column-2, .tablepress-id-246 .column-2, .tablepress-id-248 .column-2, .tablepress-id-250 .column-2, .tablepress-id-254 .column-2, .tablepress-id-256 .column-2, .tablepress-id-258 .column-2, .tablepress-id-260 .column-2, .tablepress-id-262 .column-2, .tablepress-id-264 .column-2, .tablepress-id-266 .column-2, .tablepress-id-268 .column-2, .tablepress-id-273 .column-2, .tablepress-id-275 .column-2, .tablepress-id-277 .column-2, .tablepress-id-279 .column-2, .tablepress-id-281 .column-2, .tablepress-id-283 .column-2, .tablepress-id-285 .column-2, .tablepress-id-287 .column-2, .tablepress-id-289 .column-2, .tablepress-id-291 .column-2, .tablepress-id-293 .column-2, .tablepress-id-295 .column-2, .tablepress-id-297 .column-2, .tablepress-id-299 .column-2, .tablepress-id-301 .column-2, .tablepress-id-303 .column-2, .tablepress-id-305 .column-2, .tablepress-id-307 .column-2, .tablepress-id-309 .column-2, .tablepress-id-311 .column-2, .tablepress-id-313 .column-2, .tablepress-id-315 .column-2, .tablepress-id-317 .column-2, .tablepress-id-319 .column-2, .tablepress-id-323 .column-2, .tablepress-id-325 .column-2, .tablepress-id-327 .column-2, .tablepress-id-329 .column-2, .tablepress-id-331 .column-2, .tablepress-id-333 .column-2, .tablepress-id-335 .column-2, .tablepress-id-337 .column-2, .tablepress-id-339 .column-2, .tablepress-id-341 .column-2, .tablepress-id-343 .column-2, .tablepress-id-345 .column-2, .tablepress-id-347 .column-2, .tablepress-id-349 .column-2, .tablepress-id-351 .column-2, .tablepress-id-353 .column-2, .tablepress-id-355 .column-2, .tablepress-id-357 .column-2, .tablepress-id-359 .column-2, .tablepress-id-361 .column-2, .tablepress-id-364 .column-2, .tablepress-id-366 .column-2, .tablepress-id-368 .column-2, .tablepress-id-370 .column-2, .tablepress-id-372 .column-2, .tablepress-id-374 .column-2, .tablepress-id-376 .column-2, .tablepress-id-378 .column-2, .tablepress-id-380 .column-2, .tablepress-id-384 .column-2, .tablepress-id-386 .column-2, .tablepress-id-388 .column-2, .tablepress-id-390 .column-2, .tablepress-id-392 .column-2, .tablepress-id-394 .column-2, .tablepress-id-396 .column-2, .tablepress-id-398 .column-2, .tablepress-id-400 .column-2, .tablepress-id-402 .column-2, .tablepress-id-404 .column-2, .tablepress-id-406 .column-2, .tablepress-id-408 .column-2, .tablepress-id-410 .column-2, .tablepress-id-412 .column-2, .tablepress-id-414 .column-2, .tablepress-id-416 .column-2, .tablepress-id-418 .column-2, .tablepress-id-422 .column-2, .tablepress-id-424 .column-2, .tablepress-id-426 .column-2, .tablepress-id-428 .column-2, .tablepress-id-430 .column-2, .tablepress-id-432 .column-2, .tablepress-id-434 .column-2, .tablepress-id-436 .column-2, .tablepress-id-438 .column-2, .tablepress-id-440 .column-2, .tablepress-id-442 .column-2, .tablepress-id-444 .column-2, .tablepress-id-446 .column-2, .tablepress-id-448 .column-2, .tablepress-id-451 .column-2, .tablepress-id-454 .column-2, .tablepress-id-456 .column-2, .tablepress-id-458 .column-2, .tablepress-id-460 .column-2, .tablepress-id-462 .column-2, .tablepress-id-464 .column-2, .tablepress-id-466 .column-2, .tablepress-id-470 .column-2, .tablepress-id-472 .column-2, .tablepress-id-474 .column-2, .tablepress-id-476 .column-2, .tablepress-id-478 .column-2, .tablepress-id-480 .column-2, .tablepress-id-482 .column-2, .tablepress-id-484 .column-2, .tablepress-id-486 .column-2, .tablepress-id-488 .column-2, .tablepress-id-490 .column-2, .tablepress-id-492 .column-2, .tablepress-id-494 .column-2, .tablepress-id-496 .column-2, .tablepress-id-498 .column-2, .tablepress-id-500 .column-2, .tablepress-id-502 .column-2, .tablepress-id-504 .column-2, .tablepress-id-506 .column-2, .tablepress-id-508 .column-2, .tablepress-id-510 .column-2, .tablepress-id-512 .column-2, .tablepress-id-514 .column-2, .tablepress-id-516 .column-2, .tablepress-id-518 .column-2, .tablepress-id-520 .column-2, .tablepress-id-522 .column-2, .tablepress-id-524 .column-2, .tablepress-id-527 .column-2, .tablepress-id-529 .column-2, .tablepress-id-531 .column-2, .tablepress-id-533 .column-2, .tablepress-id-535 .column-2, .tablepress-id-537 .column-2, .tablepress-id-539 .column-2, .tablepress-id-541 .column-2, .tablepress-id-543 .column-2, .tablepress-id-545 .column-2, .tablepress-id-547 .column-2, .tablepress-id-549 .column-2, .tablepress-id-551 .column-2, .tablepress-id-553 .column-2, .tablepress-id-555 .column-2, .tablepress-id-557 .column-2, .tablepress-id-559 .column-2, .tablepress-id-561 .column-2, .tablepress-id-563 .column-2, .tablepress-id-565 .column-2, .tablepress-id-567 .column-2, .tablepress-id-569 .column-2, .tablepress-id-571 .column-2, .tablepress-id-573 .column-2, .tablepress-id-575 .column-2, .tablepress-id-577 .column-2, .tablepress-id-579 .column-2, .tablepress-id-581 .column-2 {
+	min-width: 100px !important;
+	text-align: left !important;
+}
+
+/* Scouting Report Stats */
+.tablepress-id-251 .column-2 {
+	text-align: left !important;
+}
+
+/* Champion duos */
+.tablepress-id-73 .column-2, .tablepress-id-74 .column-2, .tablepress-id-75 .column-2, .tablepress-id-76 .column-2, .tablepress-id-77 .column-2, .tablepress-id-149 .column-2, .tablepress-id-150 .column-2, .tablepress-id-151 .column-2, .tablepress-id-152 .column-2, .tablepress-id-153 .column-2, .tablepress-id-202 .column-2, .tablepress-id-203 .column-2, .tablepress-id-204 .column-2, .tablepress-id-205 .column-2, .tablepress-id-206 .column-2 {
+	text-align: left !important;
+	font-weight: bold;
+}
+
+/* Misc. */
+.tablepress-id-83 .column-2, .tablepress-id-83 .column-3, .tablepress-id-83 .column-4 {
+	text-align: left !important;
+}
+.tablepress-id-83 .column-3 {
+	min-width: 120px !important;
+}
+
+.tablepress-id-95 .column-1 {
+	min-width: 40px !important;
+}
+.tablepress-id-95 .column-1 {
+	min-width: 30px !important;
+}
+/* End TablePress Customizations */
+
+
+/* Calculated Fields Customizations */
+
+#fbuilder .top_aligned .fields label {
+	font-weight: bold;
+}
+#fbuilder .one_column label, #fbuilder .side_by_side label {
+	font-weight: normal !important;
+}
+/* End Calculated Fields Customizations */
+
+
+/* OVERALL SITE CHANGES */
+/* Colour Corrections (Killing the Green) */
+a {
+	color: #228fd8;
+	text-decoration: none;
+}
+
+/* Support a widely-adopted but non-standard selector for text selection styles
+ * to achieve a better experience. See https://core.trac.wordpress.org/ticket/25898.
+ */
+::selection {
+	background: #228fd8;
+	color: #fff;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background: #228fd8;
+	color: #fff;
+	text-shadow: none;
+}
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background-color: #228fd8;
+	border: 0;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 10px 30px 11px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+
+.search-toggle {
+	background-color: #228fd8;
+	cursor: pointer;
+	float: right;
+	height: 48px;
+	margin-right: 38px;
+	text-align: center;
+	width: 48px;
+}
+
+.hentry .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #228fd8;
+}
+
+.hentry .mejs-overlay:hover .mejs-overlay-button {
+	background-color: #228fd8;
+	color: #fff;
+}
+
+.paging-navigation .page-numbers.current {
+	border-top: 5px solid #228fd8;
+}
+
+.widget button,
+.widget .button,
+.widget input[type="button"],
+.widget input[type="reset"],
+.widget input[type="submit"] {
+	background-color: #228fd8;
+	border: 0;
+	font-size: 12px;
+	padding: 5px 15px 4px;
+}
+
+.widget_calendar tbody a {
+	background-color: #228fd8;
+	color: #fff;
+	display: block;
+}
+
+.content-sidebar .widget a {
+	color: #228fd8;
+}
+
+.content-sidebar .widget input[type="button"],
+.content-sidebar .widget input[type="reset"],
+.content-sidebar .widget input[type="submit"] {
+	background-color: #228fd8;
+	border: 0;
+	color: #fff;
+}
+
+.slider-control-paging .slider-active:before,
+.slider-control-paging .slider-active:hover:before {
+	background-color: #228fd8;
+}
+
+.slider-direction-nav a:hover {
+	background-color: #228fd8;
+}
+
+	.primary-navigation ul ul {
+		background-color: #228fd8;
+		float: left;
+		margin: 0;
+		position: absolute;
+		top: 48px;
+		left: -999em;
+		z-index: 99999;
+	}
+
+	.primary-navigation li:hover > a,
+	.primary-navigation li.focus > a {
+		background-color: #228fd8;
+		color: #fff;
+	}
+
+	.secondary-navigation ul ul {
+		background-color: #228fd8;
+		position: absolute;
+		top: 0;
+		left: -999em;
+		width: 182px;
+		z-index: 99999;
+	}
+
+	.secondary-navigation li:hover > a,
+	.secondary-navigation li.focus > a {
+		background-color: #228fd8;
+		color: #fff;
+	}
+
+a:active,
+a:hover {
+	color: #228fd8;
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	background-color: #0A2A40;
+	color: #fff;
+}
+.search-toggle:hover,
+.search-toggle.active {
+	background-color: #0A2A40;
+}
+
+.search-box {
+	background-color: #0A2A40;
+	padding: 12px;
+}
+.site-navigation a:hover {
+	color: #228fd8;
+}
+.entry-title a:hover {
+	color: #228fd8;
+}
+.entry-meta a:hover {
+	color: #228fd8;
+}
+.cat-links a:hover {
+	color: #228fd8;
+}
+.entry-meta .tag-links a:hover {
+	background-color: #0A2A40;
+	color: #fff;
+}
+.entry-meta .tag-links a:hover:before {
+	border-right-color: #0A2A40;
+}
+.entry-content .edit-link a:hover {
+	color: #228fd8;
+}
+.hentry .mejs-controls .mejs-button button:hover {
+	color: #228fd8;
+}
+.page-links a:hover {
+	background: #0A2A40;
+	border: 1px solid #0A2A40;
+	color: #fff;
+}
+.post-navigation a:hover,
+.image-navigation a:hover {
+	color: #228fd8;
+}
+.paging-navigation a:hover {
+	border-top: 5px solid #0A2A40;
+	color: #2b2b2b;
+}
+.comment-author a:hover,
+.comment-list .pingback a:hover,
+.comment-list .trackback a:hover,
+.comment-metadata a:hover {
+	color: #228fd8;
+}
+.comment-reply-title small a:hover {
+	color: #228fd8;
+}
+.widget a:hover {
+	color: #228fd8;
+}
+.widget input[type="button"]:hover,
+.widget input[type="button"]:focus,
+.widget input[type="reset"]:hover,
+.widget input[type="reset"]:focus,
+.widget input[type="submit"]:hover,
+.widget input[type="submit"]:focus {
+	background-color: #0A2A40;
+}
+.widget-title a:hover {
+	color: #228fd8;
+}
+.widget_calendar tbody a:hover {
+	background-color: #0A2A40;
+}
+.widget_twentyfourteen_ephemera .entry-meta a:hover {
+	color: #228fd8;
+}
+.content-sidebar .widget a:hover {
+	color: #228fd8;
+}
+.content-sidebar .widget input[type="button"]:hover,
+.content-sidebar .widget input[type="button"]:focus,
+.content-sidebar .widget input[type="reset"]:hover,
+.content-sidebar .widget input[type="reset"]:focus,
+.content-sidebar .widget input[type="submit"]:hover,
+.content-sidebar .widget input[type="submit"]:focus {
+	background-color: #0A2A40;
+}
+.content-sidebar .widget .widget-title a:hover {
+	color: #228fd8;
+}
+.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+	color: #228fd8;
+}
+.site-info a:hover {
+	color: #228fd8;
+}
+.featured-content a:hover {
+	color: #228fd8;
+}
+.slider-control-paging a:hover:before {
+	background-color: #0A2A40;
+}
+	.primary-navigation ul ul a:hover,
+	.primary-navigation ul ul li.focus > a {
+		background-color: #0A2A40;
+	}
+	.secondary-navigation ul ul a:hover,
+	.secondary-navigation ul ul li.focus > a {
+		background-color: #0A2A40;
+	}
+
+
+button:active,
+.button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background-color: #228fd8;
+}
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a {
+	color: #228fd8;
+	font-weight: 900;
+}
+.widget input[type="button"]:active,
+.widget input[type="reset"]:active,
+.widget input[type="submit"]:active {
+	background-color: #228fd8;
+}
+.content-sidebar .widget input[type="button"]:active,
+.content-sidebar .widget input[type="reset"]:active,
+.content-sidebar .widget input[type="submit"]:active {
+	background-color: #228fd8;
+}
+
+/* General Edits */
+.site,
+.site-header {
+	margin: 0 auto;
+}
+
+.post-thumbnail {
+	margin-bottom: 48px;
+}
+
+.featured-content-inner .post-thumbnail {
+	margin-bottom: -10px;
+}
+
+/* Width Changes; Needs Some More Work to Capture Other Heading/Footing Content Widths
+.site-content .entry-header,
+.site-content .entry-content,
+.site-content .entry-summary,
+.site-content .entry-meta,
+.page-content {
+	max-width: 800px;
+	margin-right: 0;
+}
+.content-sidebar .widget-area {
+	padding-left: 10px;
+}
+End Width Changes */
+
+/* Full-Width Page Hack */
+.full-width .site-content .page .entry-header,
+.full-width .site-content .page .entry-content,
+.full-width .site-content .page .entry-summary,
+.full-width .site-content .page .entry-meta {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 594px) {
+	.full-width .site-content .page .entry-header {
+		max-width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.full-width .site-content .page .entry-content,
+																																																																																																        .full-width .site-content .page .entry-summary,
+																																																																																																        .full-width .site-content .page .entry-meta {
+		max-width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.full-width .site-content .page  .wp-caption.alignnone {
+		max-width: 100%;
+		max-width: -moz-calc(100% + 60px);
+		max-width: calc(100% + 60px);
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+	
+	.full-width .site-content .page  .wp-caption.alignnone .wp-caption-text {
+		max-width: 100%;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	
+	.full-width .site-content .page  blockquote.alignright,
+																																																																																																        .full-width .site-content .page  img.size-full.alignright,
+																																																																																																        .full-width .site-content .page  img.size-large.alignright,
+																																																																																																        .full-width .site-content .page  img.size-medium.alignright,
+																																																																																																        .full-width .site-content .page  .wp-caption.alignright {
+		margin-right: -20px;
+	}
+	
+	.full-width .site-content .page  blockquote.alignleft,
+																																																																																																        .full-width .site-content .page  img.size-full.alignleft,
+																																																																																																        .full-width .site-content .page  img.size-large.alignleft,
+																																																																																																        .full-width .site-content .page  img.size-medium.alignleft,
+																																																																																																        .full-width .site-content .page  .wp-caption.alignleft {
+		margin-left: -20px;
+	}
+}
+
+@media screen and (min-width: 673px) {
+	.full-width .site-content  .page .entry-header {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	
+	.full-width .site-content .page  .entry-content,
+																																																																																																        .full-width .site-content .page  .entry-summary,
+																																																																																																        .full-width .site-content .page  .entry-meta {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	
+	.full-width .site-content .page  .wp-caption.alignnone {
+		max-width: -moz-calc(100% + 120px);
+		max-width: calc(100% + 120px);
+		margin-left: -60px;
+		margin-right: -60px;
+	}
+	
+	.full-width .site-content .page .wp-caption.alignnone .wp-caption-text {
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+	
+	.full-width .site-content .page blockquote.alignright,
+																																																																																																        .full-width .site-content .page  blockquote.alignleft {
+		max-width: 50%;
+	}
+	
+	.full-width .site-content .page  blockquote.alignright,
+																																																																																																        .full-width .site-content .page  img.size-full.alignright,
+																																																																																																        .full-width .site-content .page  img.size-large.alignright,
+																																																																																																        .full-width .site-content .page  img.size-medium.alignright,
+																																																																																																        .full-width .site-content .page  .wp-caption.alignright {
+		margin-right: -50px;
+	}
+	
+	.full-width .site-content .page  blockquote.alignleft,
+																																																																																																        .full-width .site-content .page  img.size-full.alignleft,
+																																																																																																        .full-width .site-content .page  img.size-large.alignleft,
+																																																																																																        .full-width .site-content .page  img.size-medium.alignleft,
+																																																																																																        .full-width .site-content .page  .wp-caption.alignleft {
+		margin-left: -50px;
+	}
+}
